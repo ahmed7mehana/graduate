@@ -6,6 +6,7 @@ const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds ,show}) => {
       <section className="timer-container">
         <section className="timer">
         <div className="title"><h1>    
+    
         تخرج الدفعه 27 (كليه الزراعه جامعه طنطا)
         </h1></div>
           <div className="clock">

@@ -2,6 +2,8 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import Clock from "./Components/Clock";
 import Memorise from "./Components/Memorise";
+import Form from "./Components/Form";
+import Result from "./Components/Result";
 
 function App() {
   const [timerDays, setTimerDays] = useState();
@@ -13,7 +15,7 @@ function App() {
   let interval;
   // June
   const startTimer = () => {
-    const countDownDate = new Date("june 22,2023").getTime();
+    const countDownDate = new Date("June 22,2023").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -55,6 +57,9 @@ function App() {
         show={show}
       />
       <Memorise show={show}/>
+      <Form show={show} />
+<Result show={show}/>
+
     </div>
   );
 }

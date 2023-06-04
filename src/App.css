@@ -2,7 +2,76 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+  color: #79cf15;
+  font-weight: bold;
+}
+input{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background: 000;
+  color: aliceblue;
+}
+.input{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background: 000;
+  color: aliceblue;
+}
+h5{
+  width: 75%;
+    margin: auto;
+}
+.btn{
+  padding: 12px ;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 5px;
+  background: linear-gradient(270deg, #051817, #0e3839);
+  color: #79cf15;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 5px;
+  margin-bottom: 50px;
 
+}
+.btn:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+.Form{
+  display: flex;
+  flex-direction: column;
+}
+.Aform{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 60%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(270deg, #051817, #0e3839);
+  color: #79cf15;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 5px;
+  padding: 30px;
+}
+.counter{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.titQ{
+  font-size: 23px;
+}
 .App {
   text-align: center;
   min-height: 100vh;
@@ -101,6 +170,45 @@ width:90%;
   pointer-events: none;
 }
 
+
+.DataR{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;}
+.info{
+  background: linear-gradient(270deg, #051817, #0e3839);
+  color: #79cf15;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 5px;
+  padding: 20px;
+  min-width:120px;
+  /* max-width:250px; */
+  margin:10px;
+
+}
+.counerR{
+  margin: 10px;
+}
+.name{
+  border-bottom: #79cf15 2px solid;
+  margin-bottom: 22px;
+  border-radius: 5px;
+}
+
+.Mus{
+  margin: auto;
+  width: 95%;
+
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -120,6 +228,10 @@ box-shadow: 0 0 5px 5px;
   }
   .title{
     width: 70%;
+  box-shadow: 0 0 5px 10px;
+  }
+  .title h1{
+    font-size: 0.6rem;
   }
 
 }
