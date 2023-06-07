@@ -52,10 +52,10 @@ const userCollectionRef=collection(db,"graduation")
 
 <button onClick={handle} className='btn'>submit</button>
 
-<p>موسيقي لسهوله تدفق الافكار</p>
-<audio controls autoplay className='Mus'>
-  <source src="/music/Love-Me-Again---John-Newman(PagalWorld).mp3" type="audio/mpeg" />
-</audio>
+// <p>موسيقي لسهوله تدفق الافكار</p>
+// <audio controls autoplay className='Mus'>
+//   <source src="/music/Love-Me-Again---John-Newman(PagalWorld).mp3" type="audio/mpeg" />
+// </audio>
 
 </form>
 <h5 className='w-fit text-center m-auto border-b-2 border-[#f78da7] font-[Satisfy] text-[#f78da7] text-[30px]'> Welcome to the most beautiful person in the universe</h5>
